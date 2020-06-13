@@ -15,7 +15,7 @@ span {
 }
 
 section{
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	background-color: orange;
 	padding: 4px;
 	border: 1px solid black;
@@ -84,28 +84,32 @@ h1{
 
 @media (min-width: 992px) {  /*for desktop*/
 			.col-lg-4{
-				width: 33%;
-				margin-right: 0.25%;
+				width: 30%;
+				margin-right: 1.25%;
 				margin-top: 10px;
+				margin-left: 1.25%;
 			}
 		}
 
 @media (min-width: 768px) and (max-width: 991px) {   /*for tablet*/
 			.col-md-6{
-				width: 49%;
+				width: 47%;
 				margin-right: 1%;
 				margin-top: 5px;
+				margin-left: 1%;
 			}
 
 			.col-md-12{
-				width: 99%;
-				margin-right: 1%;
+				width: 96%;
+				margin-right: 2%;
+				margin-left:1%;
 			}
 		}
 
 @media (max-width: 767px) {  /*for mobile*/
 			.col-sm-12{
-				width: 100%;
-				margin-top: 5px;
+				width: 90%;
+				margin-top: 10px;
+				margin-left: 5%;
 			}
 		}
